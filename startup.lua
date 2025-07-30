@@ -39,6 +39,8 @@ for _, name in ipairs(filteredNames) do
     table.insert(crucibles, peripheral.wrap(name))
 end
 
+print("Found " .. #crucibles .. " crucibles.")
+
 -- Helper function to check if an item's tags match any in fuels
 local function isFuel(item)
     --print("Checking item: " .. (item and item.name or "nil"))
@@ -126,6 +128,7 @@ local function cleanCrucibleInputs(crucibles, outputInventory, inputInventory)
     end
 end
 
+print("Startup successful. Monitoring inputChest " .. inputChest .. " and crucibles...")
 while true do
     moveInputsAndFuel(inputInventory, crucibles)
     cleanCrucibleInputs(crucibles, outputInventory, inputInventory)
