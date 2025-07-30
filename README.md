@@ -1,5 +1,6 @@
 # Toxony-Crucible-automation
 ComputerCraft automation for Toxony's Crucible. Supports multiple crucibles.
+<img width="479" height="180" alt="image" src="https://github.com/user-attachments/assets/7b81bdb0-6b5f-4d61-804d-3d4228b4c706" />
 
 ## Setup
 Place a computercraft computer with a wired modem 
